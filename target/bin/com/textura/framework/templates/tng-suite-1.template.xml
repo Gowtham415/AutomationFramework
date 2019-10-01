@@ -1,0 +1,14 @@
+<suite thread-count="1" name="Automation Suite Part 1" parallel="methods" configfailurepolicy="continue">
+  <test name="Automation Test Part 1: Execute test cases externally.">
+    <groups>
+      <run>
+        <exclude name="ExternalExec.All"/>
+        <exclude name="ProductionIssues"/>
+        <exclude name="ObsoleteTestCases"/>
+        <exclude name="DateTimeChange"/>
+      </run>
+    </groups>
+    <classes>
+    </classes>
+  </test>
+</suite>

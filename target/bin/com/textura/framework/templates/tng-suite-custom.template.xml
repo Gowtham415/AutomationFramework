@@ -1,0 +1,12 @@
+<suite thread-count="1" name="Automation Suite - Custom">
+  <test name="Automation Test : Custom Test">
+    <groups>
+      <run>
+        <exclude name="ProductionIssues"/>
+        <exclude name="ObsoleteTestCases"/>
+      </run>
+    </groups>
+    <classes>
+    </classes>
+  </test>
+</suite>

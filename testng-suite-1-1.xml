@@ -1,0 +1,48 @@
+<suite thread-count="8" name="Automation Suite 1-1" parallel="methods">
+  <test name="Automation Test Part 1: Execute test cases externally.">
+    <groups>
+      <run>
+        <exclude name="ExternalExec.All"/>
+        <exclude name="ProductionIssues"/>
+      </run>
+    </groups>
+    <classes>
+	<class name="com.textura.cpm.testsuites.administration.messages.Messages_101"/>
+	<class name="com.textura.cpm.testsuites.compliance.legaldocument.LegalDocument_1971"/>
+	<class name="com.textura.cpm.testsuites.compliance.lienwaiver.LienWaiver_11"/>
+	<class name="com.textura.cpm.testsuites.compliance.lwost.LWOST_29"/>
+	<class name="com.textura.cpm.testsuites.compliance.reviewlienwaivers.ReviewLienWaivers_12"/>
+	<class name="com.textura.cpm.testsuites.contract.changeorders.ChangeOrder_1771"/>
+	<class name="com.textura.cpm.testsuites.contract.contractorsandmaterialsuppliers.ContractorsAndMaterialSuppliers_19"/>
+	<class name="com.textura.cpm.testsuites.contract.discounts.Discounts_942"/>
+	<class name="com.textura.cpm.testsuites.contract.general.General_15"/>
+	<class name="com.textura.cpm.testsuites.contract.status.Status_44"/>
+	<class name="com.textura.cpm.testsuites.internal.prontosignaturesystem.ProntoSignatureSystem_1539"/>
+	<class name="com.textura.cpm.testsuites.invoice.advancebilling.AdvanceBilling_22"/>
+	<class name="com.textura.cpm.testsuites.invoice.currency.Currency_16"/>
+	<class name="com.textura.cpm.testsuites.invoice.enterinvoice.EnterInvoice_23"/>
+	<class name="com.textura.cpm.testsuites.invoice.invoicecontrollog.InvoiceControlLog_45"/>
+	<class name="com.textura.cpm.testsuites.invoice.invoicemarkup.InvoiceMarkup_24"/>
+	<class name="com.textura.cpm.testsuites.invoice.masiparallel.gcsub.GCSub_67"/>
+	<class name="com.textura.cpm.testsuites.invoice.masiserial.gcsub.GCSub_21"/>
+	<class name="com.textura.cpm.testsuites.invoice.masiserial.owner.Owner_20"/>
+	<class name="com.textura.cpm.testsuites.invoice.retentionlock.RetentionLock_25"/>
+	<class name="com.textura.cpm.testsuites.invoice.sendtosigner.SendToSigner_93"/>
+	<class name="com.textura.cpm.testsuites.invoice.specifiedbilling.SpecifiedBilling_26"/>
+	<class name="com.textura.cpm.testsuites.invoice.systemgeneratedinvoicenumbers.SystemGeneratedInvoiceNumbers_13"/>
+	<class name="com.textura.cpm.testsuites.invoice.tax.Tax_34"/>
+	<class name="com.textura.cpm.testsuites.invoice.unitpricing.UnitPricing_14"/>
+	<class name="com.textura.cpm.testsuites.invoice.wholedollar.WholeDollar_35"/>
+	<class name="com.textura.cpm.testsuites.invoice.zerodollarlw.ZeroDollarLW_36"/>
+	<class name="com.textura.cpm.testsuites.project.disbursement.Disbursement_118"/>
+	<class name="com.textura.cpm.testsuites.project.documents.Documents_7"/>
+	<class name="com.textura.cpm.testsuites.project.draw.Draw_18"/>
+	<class name="com.textura.cpm.testsuites.project.general.General_5"/>
+	<class name="com.textura.cpm.testsuites.project.linkedprojects.LinkedProjects_28"/>
+	<class name="com.textura.cpm.testsuites.project.scheduleofvalues.ScheduleOfValues_33"/>
+	<class name="com.textura.cpm.testsuites.project.userroles.UserRoles_1701"/>
+	<class name="com.textura.cpm.testsuites.smoketest.SmokeTest_40"/>
+	<class name="com.textura.cpm.testsuites.webservices.andre.WebServicesAndre_2836"/>
+    </classes>
+  </test>
+</suite>

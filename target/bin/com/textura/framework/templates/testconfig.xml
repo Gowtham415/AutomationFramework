@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration name="Test configuration">
+  <project name="Test Configuration">
+  
+
+		<!-- Test Environment configuration -->
+		
+		<environment name="Test Environment configuration">
+		
+			<Product>CPM</Product>
+			<Testbed>Select</Testbed>
+			<TestClient>client</TestClient>
+			<UserPassword></UserPassword>
+			<CodeBranch>branch</CodeBranch>
+			<CodeRevision>revision</CodeRevision>
+			<TestNotes>notes</TestNotes>
+			<!-- If false and there was a failure will leave browser open. If true, will disable userIntervention popup -->
+			<JenkinsBuild>false</JenkinsBuild>
+			<RunPreconditions>false</RunPreconditions>
+			<ProxyMode>false</ProxyMode>
+			<Proxy></Proxy>
+			<PortalNode></PortalNode>
+			<ActiveDirectoryUsername></ActiveDirectoryUsername>
+			<ActiveDirectoryPassword></ActiveDirectoryPassword>
+			
+		</environment>
+		
+
+		<!-- Automation project settings -->
+		
+		<automation name="Automation settings">
+		
+			<GridMode>false</GridMode>
+			<GridServer>localhost</GridServer>
+			<GridNodes>1</GridNodes>
+			<GridPort>4444</GridPort>
+			<GridURL></GridURL>
+			<Browser>Firefox</Browser>
+			<Timeout>15</Timeout>
+			<SampleSize>1</SampleSize>
+			<!-- If a test fails finding an element, user may be prompted to handle the failure -->
+			<UserIntervention>false</UserIntervention>
+		    <LogLevel></LogLevel>
+						
+		</automation>
+
+
+		<!-- Test, TestRail and TestNG related settings -->
+		
+		<test name="Test configuration">
+		
+			<TestRunMode>false</TestRunMode>
+			<TestRunID></TestRunID>
+			
+			<TestMilestoneMode>false</TestMilestoneMode>
+			<TestMilestoneID></TestMilestoneID>
+			
+			<TestRerunMode>false</TestRerunMode>
+			<TestRerunID></TestRerunID>
+			
+			<TestSuites></TestSuites>
+			<TestCases></TestCases>
+			<TestGroups>Default</TestGroups>
+			<TestFile></TestFile>
+					
+		</test>
+		
+		
+	</project>
+</configuration>

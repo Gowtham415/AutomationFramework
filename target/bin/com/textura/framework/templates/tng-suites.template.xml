@@ -1,0 +1,4 @@
+<suite name="Automation Suites: Default" junit="false" configfailurepolicy="skip" thread-count="1" skipfailedinvocationcounts="false" data-provider-thread-count="10" group-by-instances="false" preserve-order="true" allow-return-values="false">
+  <suite-files>
+  </suite-files>
+</suite>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/testng/testng/6.9.13.6/testng-6.9.13.6.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://testng.org/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/net/lightbody/bmp/browsermob-dist/2.1.2/browsermob-dist-2.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/com/jamonapi/jamon/2.81/jamon-2.81.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://jamonapi.sourceforge.net/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/json/json/20160810/json-20160810.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/resources/selenium/2.53.1/selenium-server-standalone-2.53.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://selenium.googlecode.com/svn/trunk/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/seleniumhq/selenium/selenium-java/2.53.1/selenium-java-2.53.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://selenium.googlecode.com/svn/trunk/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/com/sun/mail/mailapi/1.5.6/mailapi-1.5.6.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://www.logmethods.com/doctree/javamail/docs/javadocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/ch/ethz/ganymed/ganymed-ssh2/262/ganymed-ssh2-262.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/apache/poi/poi/3.15/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/dom4j/dom4j/2.0.0/dom4j-2.0.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://dom4j.sourceforge.net/dom4j-1.6.1/apidocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/jaxen/jaxen/1.1.4/jaxen-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/postgresql/postgresql/42.2.5/postgresql-42.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/apache/pdfbox/pdfbox-app/2.0.3/pdfbox-app-2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/net/javacrumbs/json-unit/json-unit/2.0.0.RC1/json-unit-2.0.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/net/javacrumbs/json-unit/json-unit-core/2.0.0.RC1/json-unit-core-2.0.0.RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/com/github/javaparser/javaparser-core/3.6.24/javaparser-core-3.6.24.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Automation/repository/maven/org/apache/poi/poi-ooxml-schemas/3.15/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="output" path="target/bin"/>
+</classpath>

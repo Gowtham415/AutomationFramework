@@ -1,0 +1,1 @@
+java -jar /Automation/repository/resources/selenium/2.53.1/selenium-server-standalone-2.53.1.jar -role hub -hubConfig /Automation/Textura/Framework/src/main/scripts/selenium/hub/SeleniumHubConfig.json

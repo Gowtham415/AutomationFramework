@@ -1,0 +1,7 @@
+<suite thread-count="[THREAD]" name="Automation Framework Suite 1" parallel="methods">
+  <test name="Automation Framework Test 1.">
+    <classes>
+	<class name="com.textura.framework.testsuites.FrameworkTest_01"/>
+    </classes>
+  </test>
+</suite>

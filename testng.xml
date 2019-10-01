@@ -1,0 +1,6 @@
+<suite name="Automation Suites">
+  <suite-files>
+    <suite-file path="testng-suite-1-1.xml"/>
+    <suite-file path="testng-suite-1-2.xml"/>
+  </suite-files>
+</suite>

@@ -1,0 +1,1 @@
+java -jar /Automation/repository/resources/selenium/2.53.1/selenium-server-standalone-2.53.1.jar -role node -hub http://<YOURCOMPUTER>.texturallc.net:4444/grid/register -nodeConfig /Automation/Textura/Framework/src/main/scripts/selenium/node/SeleniumNodeConfig.json

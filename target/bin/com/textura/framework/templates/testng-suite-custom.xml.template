@@ -1,0 +1,8 @@
+<suite thread-count="[THREAD_COUNT]" name="[SUITE_NAME]" parallel="[PARALLEL]" junit="false" configfailurepolicy="skip" skipfailedinvocationcounts="false" data-provider-thread-count="10" group-by-instances="false" preserve-order="true" allow-return-values="false">
+  <test name="[TEST_NAME]">
+    <groups>
+[TEST_GROUPS]    </groups>
+    <classes>
+[TEST_CLASSES]    </classes>
+  </test> <!-- [TEST_NAME] -->
+</suite> <!-- [SUITE_NAME] -->

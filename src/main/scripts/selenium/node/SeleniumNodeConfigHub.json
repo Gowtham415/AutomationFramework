@@ -1,0 +1,38 @@
+{
+  "capabilities":
+      [
+        {
+          "browserName": "firefox",
+          "version": "47.0.1",
+          "platform": "WINDOWS",
+          "seleniumRunMode": "Hub",
+          "seleniumProtocol": "WebDriver",
+          "maxInstances": 5,
+          "applicationName": "hub"
+        },
+        {
+          "browserName": "chrome",
+          "maxInstances": 5,
+          "seleniumProtocol": "WebDriver",
+          "applicationName": "hub"
+        },
+        {
+          "platform": "WINDOWS",
+          "browserName": "internet explorer",
+          "maxInstances": 1,
+          "seleniumProtocol": "WebDriver",
+          "applicationName": "hub"
+        }
+      ],
+  "configuration":
+  {
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 5,
+    "port": 5555,
+    "host": ip,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "nodeTimeout": 20
+  }
+}

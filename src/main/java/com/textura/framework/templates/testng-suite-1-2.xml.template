@@ -1,0 +1,14 @@
+<suite thread-count="[THREAD]" name="Automation Suite 1-2">
+  <test name="Automation Test Part 2: Execute test cases locally.">
+    <groups>
+      <run>
+        <include name="ExternalExec.*"/>
+        <exclude name="ProductionIssues"/>
+        <exclude name="ObsoleteTestCases"/>
+        <exclude name="DateTimeChange"/>
+      </run>
+    </groups>
+    <classes>
+[CLASS_NAME]    </classes>
+  </test>
+</suite>

@@ -1,0 +1,5 @@
+<suite name="Automation Suites" thread-count="1" junit="false" parallel="false" guice-stage="DEVELOPMENT" configfailurepolicy="skip" skipfailedinvocationcounts="false" data-provider-thread-count="10" group-by-instances="false" preserve-order="true" allow-return-values="false">>
+  <suite-files>
+    <suite-file path="testng-failed.xml"/>
+  </suite-files>
+</suite>

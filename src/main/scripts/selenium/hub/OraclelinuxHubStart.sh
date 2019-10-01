@@ -1,0 +1,1 @@
+java -jar /home/oracle/Automation/repository/maven/org/seleniumhq/selenium/selenium-server-standalone/2.41.0/selenium-server-standalone-2.41.0.jar -role hub -hubConfig /home/oracle/Automation/Textura/Framework/src/main/scripts/selenium/hub/SeleniumHubConfig.json

@@ -1,0 +1,4 @@
+# monitorRole - readonly access
+# controlRole - readwrite access
+monitorRole readonly
+controlRole readwrite

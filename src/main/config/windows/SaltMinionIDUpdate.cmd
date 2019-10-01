@@ -1,0 +1,1 @@
+"%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -File C:\Automation\Textura\Framework\src\main\config\windows\SaltMinionIDUpdate.ps1
